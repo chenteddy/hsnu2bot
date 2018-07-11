@@ -1,0 +1,63 @@
+[25.392293930] 2018-07-12 01:04:05,159 - INFO - launcher: Starting sanity checks
+[25.392293930] 2018-07-12 01:04:05,159 - INFO - launcher: Checking for Python 3.5+
+[25.880336761] 2018-07-12 01:04:05,160 - INFO - launcher: Checking console encoding
+[25.880336761] 2018-07-12 01:04:05,160 - INFO - launcher: Setting console encoding to UTF-8
+[25.880336761] 2018-07-12 01:04:05,160 - INFO - launcher: Ensuring we're in the right environment
+[26.856660843] 2018-07-12 01:04:05,161 - INFO - launcher: Adding local bins/ folder to path
+[27.345418930] 2018-07-12 01:04:05,161 - INFO - launcher: Required checks passed.
+[27.345418930] 2018-07-12 01:04:05,161 - INFO - launcher: Optional checks passed.
+[27.833938599] 2018-07-12 01:04:05,162 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[5.5822720527648926] 2018-07-12 01:04:10,716 - WARNING - musicbot.config | In config.py::MainThread(8180), line 112 in run_checks: i18n file does not exist. Trying to fallback to config/i18n/en.json.
+[5.5827603340148926] 2018-07-12 01:04:10,716 - INFO - musicbot.config | In config.py::MainThread(8180), line 123 in run_checks: Using i18n: config/i18n/en.json
+[5.5852022171020508] 2018-07-12 01:04:10,719 - DEBUG - musicbot.json | In json.py::MainThread(8180), line 8 in __init__: Init JSON obj with config/i18n/en.json
+[5.7927310466766357] 2018-07-12 01:04:10,926 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 227 in _setup_logging: Set logging level to INFO
+[5.7927310466766357] 2018-07-12 01:04:10,926 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 84 in __init__: Starting MusicBot 1.9.7
+[5.7932190895080566] 2018-07-12 01:04:10,927 - WARNING - musicbot.bot | In bot.py::MainThread(8180), line 87 in __init__: Autoplaylist is empty, disabling.
+[8.7323105335235596] 2018-07-12 01:04:13,866 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 1074 in on_ready: Connection established, ready to go.
+[8.7323105335235596] 2018-07-12 01:04:13,866 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 339 in _cache_app_info: Caching app info
+[8.9408156871795654] 2018-07-12 01:04:14,074 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 889 in _scheck_ensure_env: Ensuring data folders exist
+[8.9447226524353027] 2018-07-12 01:04:14,078 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 905 in _scheck_server_permissions: Checking server permissions
+[8.9447226524353027] 2018-07-12 01:04:14,078 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 909 in _scheck_autoplaylist: Auditing autoplaylist
+[8.9452109336853027] 2018-07-12 01:04:14,079 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 913 in _scheck_configs: Validating config
+[8.9452109336853027] 2018-07-12 01:04:14,079 - DEBUG - musicbot.config | In config.py::MainThread(8180), line 212 in async_validate: Validating options...
+[8.9452109336853027] 2018-07-12 01:04:14,079 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 916 in _scheck_configs: Validating permissions config
+[8.9452109336853027] 2018-07-12 01:04:14,079 - DEBUG - musicbot.permissions | In permissions.py::MainThread(8180), line 64 in async_validate: Validating permissions...
+[8.9452109336853027] 2018-07-12 01:04:14,079 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 1091 in on_ready: Connected: 465937817814433802/附野音樂家#8323
+[8.9461865425109863] 2018-07-12 01:04:14,080 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 1099 in on_ready: Owner:     397786993725276171/chenteddy#3173
+
+[8.9461865425109863] 2018-07-12 01:04:14,080 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 1102 in on_ready: Server List:
+[8.9466755390167236] 2018-07-12 01:04:14,080 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 1105 in on_ready:  - 附野21
+[8.9466755390167236] 2018-07-12 01:04:14,080 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 1138 in on_ready: Bound to text channels:
+[8.9471633434295654] 2018-07-12 01:04:14,081 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 1139 in <listcomp>:  - 附野21/點歌
+[8.9471633434295654] 2018-07-12 01:04:14,081 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 1164 in on_ready: Autojoining voice chanels:
+[8.9476518630981445] 2018-07-12 01:04:14,081 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 1165 in <listcomp>:  - 附野21/音樂
+[8.9481403827667236] 2018-07-12 01:04:14,082 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 281 in _join_startup_channels: Attempting to join 附野21/音樂
+[8.9481403827667236] 2018-07-12 01:04:14,082 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 452 in get_voice_client: Connection attempt 1 to 音樂
+[8.9486279487609863] 2018-07-12 01:04:14,082 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 391 in join_voice_channel: (join_voice_channel) creating futures
+[8.9486279487609863] 2018-07-12 01:04:14,082 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 397 in join_voice_channel: (join_voice_channel) setting voice state
+[8.9491174221038818] 2018-07-12 01:04:14,083 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 400 in join_voice_channel: (join_voice_channel) waiting for session id
+[9.1454143524169922] 2018-07-12 01:04:14,279 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 2938 in on_voice_state_update: Voice state update for 465937817814433802/附野音樂家#8323 on 附野21/音樂 -> [JOIN, CONNECT]
+[9.1454143524169922] 2018-07-12 01:04:14,279 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 2949 in on_voice_state_update: 465937817814433802/附野音樂家#8323 has joined 附野21/音樂
+[9.1459031105041504] 2018-07-12 01:04:14,280 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 404 in join_voice_channel: (join_voice_channel) waiting for voice data
+[9.3778469562530518] 2018-07-12 01:04:14,512 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 418 in join_voice_channel: (join_voice_channel) connecting...
+[9.6600847244262695] 2018-07-12 01:04:14,794 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 430 in join_voice_channel: (join_voice_channel) connection successful
+[9.6600847244262695] 2018-07-12 01:04:14,794 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 478 in get_voice_client: Connected in 0.7s
+[9.6600847244262695] 2018-07-12 01:04:14,794 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 479 in get_voice_client: Connected to 附野21/音樂
+[9.6610615253448486] 2018-07-12 01:04:14,795 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 849 in deserialize_queue: Deserializing queue for 465933629944496148
+[9.8978881835937500] 2018-07-12 01:04:15,032 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 570 in get_player: Created player via deserialization for server 465933629944496148 with 2 entries
+[9.8978881835937500] 2018-07-12 01:04:15,032 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 297 in _join_startup_channels: Joined 附野21/音樂
+[9.8983759880065918] 2018-07-12 01:04:15,032 - VOICEDEBUG - musicbot.player | In player.py::MainThread(8180), line 373 in websocket_check: Starting websocket check loop for 附野21
+[9.8988649845123291] 2018-07-12 01:04:15,033 - DEBUG - musicbot.entry | In entry.py::MainThread(8180), line 54 in get_ready_future: Created future for None
+[9.8988649845123291] 2018-07-12 01:04:15,033 - DEBUG - musicbot.entry | In entry.py::MainThread(8180), line 54 in get_ready_future: Created future for audio_cache\youtube-fzuy63eCUKc-Escape_Plan_-_Brightest_Star_In_The_Night_Sky.webm
+[9.8988649845123291] 2018-07-12 01:04:15,033 - FFMPEG - musicbot.player | In player.py::MainThread(8180), line 330 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-fzuy63eCUKc-Escape_Plan_-_Brightest_Star_In_The_Night_Sky.webm
+[10.1884288787841797] 2018-07-12 01:04:15,322 - INFO - musicbot.entry | In entry.py::MainThread(8180), line 196 in _download: Download cached: https://www.youtube.com/watch?v=5jFW6PsuJIo&index=11&
+[10.1894049644470215] 2018-07-12 01:04:15,323 - DEBUG - musicbot.bot | In bot.py::MainThread(8180), line 825 in serialize_queue: Serializing queue for 465933629944496148
+[15.6823177337646484] 2018-07-12 01:04:20,816 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 2938 in on_voice_state_update: Voice state update for 465937817814433802/附野音樂家#8323 on 附野21/音樂 -> [UNMUTE]
+[21.6308159828186035] 2018-07-12 01:04:26,764 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 2938 in on_voice_state_update: Voice state update for 465937817814433802/附野音樂家#8323 on 附野21/音樂 -> [MUTE]
+[30.6097185611724854] 2018-07-12 01:04:35,743 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 2734 in on_message: 397786993725276171/chenteddy#3173: ;;pause
+[40.1496789455413818] 2018-07-12 01:04:45,283 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 2938 in on_voice_state_update: Voice state update for 184405311681986560/FredBoat♪♪#7284 on 附野21/音樂 -> [JOIN, CONNECT]
+[40.1496789455413818] 2018-07-12 01:04:45,283 - INFO - musicbot.bot | In bot.py::MainThread(8180), line 2949 in on_voice_state_update: 184405311681986560/FredBoat♪♪#7284 has joined 附野21/音樂
+[43.1576204299926758] 2018-07-12 01:04:48,291 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(8180), line 2929 in on_voice_state_update: Empty voice state update, likely a session id change
